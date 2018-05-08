@@ -21,7 +21,7 @@
 	-->
     <copyright>Hansa</copyright>
     <initialWindow>
-        <content>Flappy%20Ship.swf</content>
+        <content>FlappyShip.swf</content>
         <systemChrome>standard</systemChrome>
         <transparent>false</transparent>
         <visible>true</visible>
