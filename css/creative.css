@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #DD2E97;
 }
 
 hr.light {
@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #DD2E97;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -298,8 +298,8 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #DD2E97;
+  border-color: #DD2E97;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
