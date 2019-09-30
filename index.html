@@ -66,16 +66,17 @@
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-10 mx-auto" style="z-index:1;">
             <h1 class="text-uppercase">
               <strong>Hansa Halim</strong>
             </h1>
             <hr>
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Software Engineer Intern at Tokopedia and BMath Candidate at UWaterloo</p>
+          <div class="col-lg-8 mx-auto" style="z-index:1;">
+            <h2 class="mb-5">BMath Candidate at the University of Waterloo Previously at Tokopedia</h2>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="resume.pdf">View Resume</a>
           </div>
+          <div id="lead-overlay"></div>
         </div>
       </div>
     </header>
@@ -88,7 +89,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-dark">About Me</h2>
             <hr class="dark my-4">
-            <p class="text-dark mb-4">I am currently in my second year for the BMath Honours Statistics program at the University of Waterloo. I love to learn new things and tackle challenging problems in my free time, especially those related to technology. I learn best by creating and answering questions. In addition to English, I also speak fluent Mandarin and Indonesian, with a little bit of Spanish and Cantonese. Apart from studies, I enjoy travelling, cooking, skiing, photography and trying out new things! </p>
+            <p class="text-dark mb-4">I am currently in my third year for the Honours Bachelors of Mathematics program at the University of Waterloo. I love to learn new things and tackle challenging problems in my free time, especially those related to technology. I learn best by creating and answering questions. In addition to English, I also speak fluent Mandarin and Indonesian, with a little bit of Spanish and Cantonese. Apart from studies, I enjoy travelling, skiing, airplanes and trying out new things! </p>
           </div>
         </div>
       </div>
@@ -130,7 +131,44 @@
         <hr class="my-4">
         <div class="container">
             <div class="row">
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/fluent.png"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fluent.id</h3>
+                        <p>
+                          Fluent is an anonymous platform which allows people to practice English via peer to peer voice calls. 
+                          The purpose of it being anonymous is to remove the element of anxiety when you want to practice your English.
+                          You will be able to choose a topic and then you will be matched with someone to start chatting about anything!
+                        </p>
+                        
+                        <p>
+                            I am a Co-Founder and a Frontend Engineer for this project using React and Next.js, one example of my work is the Live Translation feature shown on the image.
+                            Fluent is live right now in production and you can check it out by clicking the link below!
+                        </p>
+                        <a href="https://fluent.id/">Check out Fluent.id Now!</a>
+                    </div>
+                </div>
                 
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="img/goosenet.png"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>GooseNet - React, Next.js</h3>
+                        <p>
+                          GooseNet acts as a community for an apartment building where people can chat freely and anonymously in group chats. There are different sub groups available (i.e. lunch group, lending group). People can also make posts where other people can comment freely without having to reveal their identity. Our platform will have a great deal of anonymity attached to it, creating a safe space for every single one of our users.
+                        </p>
+                        
+                        <p>
+                          I worked on the Frontend where we used Next.JS and React to create chat screens, threads and posts. I also created the Web View Android App. Submitted to Hack The North 2019.
+                        </p>
+                        <a href="https://devpost.com/software/goosenet-an-anonymous-community-for-your-apartment">Click Here To see project on Devpost!</a>
+                    </div>
+                </div>
+
                  <div class="project shadow-large">
                     <div class="project-image">
                         <img src="img/realtimeq.png"/>
@@ -184,66 +222,6 @@
                             KKCIndo.com used to be a popular Minecraft server among Indonesian kids and it was ranked as Indonesia's Number 1 Minecraft server for 5 consecutive months by Minecraft Multiplayer. The project itself generated a total revenue exceeding Rp. 20,000,000 (CAD$2000) and a total of 6000 unique players worldwide! The server used for this project was located in Singapore on a VPS using Intel i5 with 4.5 GB of RAM.
                         </p>
                         <a href="https://web.archive.org/web/20131003055627/http://kkcindo.com:80/">Click Here To See Archived Website of KKCIndo.com!</a>
-                    </div>
-                </div>
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="img/hangman.png"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>C Text Based Game - Hangman</h3>
-                        <p>
-                            This hangman is playable like the original hangman game but the graphics may not be the best. This game was created part of CS136 assignment where we were given the drawings and words and our job was to write the code in C to make this game works.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="img/sudoku.png"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>C Backtracking Technique - Sudoku Solver</h3>
-                        <p>
-                            With this solver, you input an unsolved sudoku at any state and then click solve. Wait for it... It's solved! The sudoku question that you have been stuck on for hours is solved by this sudoku solver using backtracking technique that is also used by popular search engines! This project was created as part of a CS136 assignment where we apply what we learned about backtracking.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="img/chess.png"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>C Programming - Checkmate Checker</h3>
-                        <p>
-                            Playing chess and want to know if you are losing? I made a checkmate checker where you can have 1, 2 or as many queens as the chess board allows. Usually when we play chess, it is hard to determine whether you have any possible moves left as a single king, which is why this program comes in helpful. This project is created as part of a CS136 assignment.
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="img/maze.png"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>Traversing in C - Maze Solver</h3>
-                        <p>
-                            I wrote a maze solver that can solve a maze using right-hand rule wall follower algortithm. The image on the right is a maze question and the solution is given on it. The image on the left is a machine readable code for the maze. The solver then uses the wall follower algorithm to find the solution to this maze. The solution is then shown where U - Up, D - Down, R - Right, L - Left from our point of view. By following the solution set, it will lead you from the start line to the finish line. This project was created as part of a CS136 assignment.
-                        </p>
-                    </div>
-                </div>
-                
-                 <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="img/conway.png"/>
-                    </div>
-                    <div class="project-info">
-                        <h3>Conway's Game of Life - C++</h3>
-                        <p>
-                            This graphical version of the game was possible using X11 forwarding. The game rules are simple and this program demonstrates the game using black and white boxes provided by the XWindows library. The code was written in C++ using Object-Oriented Programming principles. The Observer pattern is a key to the success for this project.This project was created as part of a CS246 assignment.
-                        </p>
                     </div>
                 </div>
                 
