@@ -127,6 +127,18 @@
     transform:none;
 }
 
+#lead-overlay{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:rgba(33,125,187,0.5);
+    z-index:0
+}
+
 #lead-down{
     display:none;
 }.experience-image{
