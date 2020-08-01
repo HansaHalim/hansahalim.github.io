@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1779617f.chunk.css",
+    "main.js": "/static/js/main.dca35744.chunk.js",
+    "main.js.map": "/static/js/main.dca35744.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f8c5b4be.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f8c5b4be.js.map",
+    "static/js/2.3fbe8cfd.chunk.js": "/static/js/2.3fbe8cfd.chunk.js",
+    "static/js/2.3fbe8cfd.chunk.js.map": "/static/js/2.3fbe8cfd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8405d121647b8caf081b9dcb1afedeb3.js": "/precache-manifest.8405d121647b8caf081b9dcb1afedeb3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1779617f.chunk.css.map": "/static/css/main.1779617f.chunk.css.map",
+    "static/js/2.3fbe8cfd.chunk.js.LICENSE.txt": "/static/js/2.3fbe8cfd.chunk.js.LICENSE.txt",
+    "static/media/FlappyShip.png": "/static/media/FlappyShip.91e59eea.png",
+    "static/media/background.jpg": "/static/media/background.2b4429e6.jpg",
+    "static/media/biquadris.png": "/static/media/biquadris.0214db21.png",
+    "static/media/down_icon.svg": "/static/media/down_icon.17778957.svg",
+    "static/media/email.png": "/static/media/email.1ec703f2.png",
+    "static/media/fluent.png": "/static/media/fluent.5e80571e.png",
+    "static/media/goosenet.png": "/static/media/goosenet.b9c82d40.png",
+    "static/media/hansa_halim.jpg": "/static/media/hansa_halim.f55618d5.jpg",
+    "static/media/openapp.png": "/static/media/openapp.a445a74a.png",
+    "static/media/realtimeq.png": "/static/media/realtimeq.e5054ac8.png",
+    "static/media/tauria.png": "/static/media/tauria.bbd597c3.png",
+    "static/media/tokopedia.png": "/static/media/tokopedia.127bef28.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8c5b4be.js",
+    "static/js/2.3fbe8cfd.chunk.js",
+    "static/css/main.1779617f.chunk.css",
+    "static/js/main.dca35744.chunk.js"
+  ]
+}
